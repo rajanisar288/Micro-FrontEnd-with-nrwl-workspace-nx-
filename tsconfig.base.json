@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/angular-lib": ["angular-lib/src/index.ts"],
+      "@org/my-shared-lib": ["my-shared-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
